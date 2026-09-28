@@ -1,0 +1,12 @@
+name=input(" Enter your name" )
+student_id = input ( "Enter your student ID: ")
+department = input ( "Enter your department: ")
+github_username= input(  "Enter your github username:)
+programming_language= input( "Enter a programming leanguage ")
+
+print( "n--- Student Introduction Card--- ")
+print(f "Name:(name) ")
+print(f "student_ID:(student_id)")
+print(f "department:(department)")
+print(f "Github:(github_username))
+print(f"Programing Language: {programming_language}")
