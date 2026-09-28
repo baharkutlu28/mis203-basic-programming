@@ -1,5 +1,4 @@
 
-
 item1 = input("Enter first item name: ")
 quantity1 = int(input("Enter quantity for first item: "))
 price1 = float(input("Enter unit price for first item: "))
