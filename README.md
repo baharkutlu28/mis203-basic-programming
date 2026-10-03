@@ -30,14 +30,21 @@ I checked the code and made sure it works correctly. I also kept the code simple
 * **What does break do in your program?** It stops the loop when the user enters q.
 
 
+
 ## Week 03
 
-- AI Tool Used: ChatGPT
-- Prompt Used: [kullandığın ana prompt]
-- What did you change? I created the ticket office program and added input validation, discount rules, and a sales summary.
-- Tests:
+* **AI Tool Used:** ChatGPT
+
+* **Prompt Used:** This week you will combine everything you have learned so far: input, type conversion, f-strings, loops, and this week's new topic: conditions (if / elif / else, and / or, boundaries and input validation). Create a folder named week03 and write a Python program named ticket_office.py. The program sells cinema tickets and keeps running until the user wants to stop. It should ask for the customer name, age, day, and student status, validate the inputs, apply the correct ticket price and discount rules, print the ticket result, and print a summary after the loop ends.
+
+* **What did you change?** I created the ticket office program and added input validation, discount rules, and a sales summary.
+
+* **Tests:**
+
   1. Age 5, weekend, no → 0.00 TRY (Free)
   2. Age 12, weekday, yes → 120.00 TRY (Child)
   3. Age 65, weekday, no → 100.00 TRY (Senior)
-- Why does the order of the rules matter? The program uses the first rule that matches. For example, a 10-year-old student must get the Child discount, so the Child rule must come before the Student rule.
+
+* **Why does the order of the rules matter?** The program uses the first rule that matches. For example, a 10-year-old student must get the Child discount, so the Child rule must come before the Student rule.
+
  
