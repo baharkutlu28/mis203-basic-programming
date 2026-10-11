@@ -48,3 +48,21 @@ I checked the code and made sure it works correctly. I also kept the code simple
 * **Why does the order of the rules matter?** The program uses the first rule that matches. For example, a 10-year-old student must get the Child discount, so the Child rule must come before the Student rule.
 
  
+## Week 04
+
+### Project: Future Teller
+
+**AI Tool Used:** ChatGPT
+
+**What does the program do?**
+The Future Teller is a Python program that gives users random future predictions. It asks for the user's name and mood, then shows a lucky number, a lucky colour, a prediction, and advice.
+
+**Libraries Used:**
+- random
+- datetime
+
+**What did I learn?**
+I practised using variables, input, conditions, lists, functions from libraries, and random choices in Python.
+
+**Testing:**
+I ran the program and tested it with my name and different mood choices. The program worked successfully.
